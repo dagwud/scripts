@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\snippet_auto_file]
+@="Clipboard snippet"
+
+[HKEY_CLASSES_ROOT\snippet_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\snippet_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\snippet_auto_file\shell\open\command]
+@="\"I:\\Scripts\\toclip.bat\" \"%1\""
+
